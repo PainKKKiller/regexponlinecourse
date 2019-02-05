@@ -73,7 +73,8 @@
     "thread-loader": "1.1.2",
     "webpack": "3.10.0",
     "webpack-bundle-analyzer": "2.9.2",
-    "webpack-dev-server": "2.11.1"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "3.0.0"
   },
   "dependencies": {
     "axios": "^0.15.3",
