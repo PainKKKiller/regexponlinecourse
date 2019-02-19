@@ -23,5 +23,4 @@ console.log('process.env.ENV', process.env.NODE_ENV);
 ReactDOM.render(
   <Provider store={appStore}>
     <App />
-  </Provider>
-  , document.getElementById('app'));
+  </Provider>, document.getElementById('app'));

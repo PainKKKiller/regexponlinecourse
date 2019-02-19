@@ -29,9 +29,7 @@ export function showModalWindow(windowProps) {
   };
 }
 
-/*
-*
-*/
+
 export const getCatalog = ({ searchInn = '', searchName = '', okved = '' }) => dispatch => {
   preloader.show();
   console.log('action get Catalog');
@@ -82,4 +80,3 @@ export const getVKData = (query, cb) => {
       cb(error);
     });
 };
-
